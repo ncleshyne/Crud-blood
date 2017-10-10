@@ -1,0 +1,81 @@
+.header{
+  margin: 20px 5px 20px 5px;
+}
+
+.header .btn {
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.homePage {
+}
+
+.aboutPage {
+  background-color: lightgray
+}
+
+.todo-item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  float: left;
+  border: solid 2px white;
+  box-sizing: border-box;
+}
+
+
+
+/* ############ Animations ############ */
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.example-enter {
+  opacity: 0.01;
+  width: 0px;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  width: 100px;
+  transition: 700ms;
+}
+
+.example-leave {
+  opacity: 1;
+  width: 100px;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  width: 0px;
+  transition: 700ms;
+}
+
+
+/* courses list apper */
+.course-item-appear {
+  opacity: 0.01;
+}
+.course-item-appear.course-item-appear-active {
+  opacity: 1;
+  transition: opacity .9s ease-in;
+}
+
+/* remove courses */
+.course-item-leave {
+  opacity: 1;
+}
+.course-item-leave.course-item-leave-active {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
