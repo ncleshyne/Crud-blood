@@ -14,28 +14,28 @@ const store = configureStore();
 store.dispatch({
   type: 'LOAD_REQUESTS_SUCCESS',
   requests: [
-    { id:'1', title: 'Johnny Deep', authorId: 'a1', description: '', location: ''},
-    { id:'2', title: 'Vin Diesel', authorId: 'a2', description: '', location: ''},
-    { id:'3', title: 'Robert De Niro', authorId: 'a3', description: '', location: ''},
-    { id:'4', title: 'Tom Hanks', authorId: 'a4', description: '', location: ''},
-    { id:'5', title: 'Al Pacino', authorId: 'a5', description: '', location: ''},
-    { id:'6', title: 'Sean Penn', authorId: 'a6', description: '', location: ''},
-    { id:'7', title: 'Morgan Freeman', authorId: 'a7', description: '', location: ''},
-    { id:'8', title: 'Clint EastWood', authorId: 'a8', description: '', location: ''}
+    { id:'1', title: 'Johnny Deep', bloodId: 'a1', description: '', location: ''},
+    { id:'2', title: 'Vin Diesel', bloodId: 'a2', description: '', location: ''},
+    { id:'3', title: 'Robert De Niro', bloodId: 'a3', description: '', location: ''},
+    { id:'4', title: 'Tom Hanks', bloodId: 'a4', description: '', location: ''},
+    { id:'5', title: 'Al Pacino', bloodId: 'a5', description: '', location: ''},
+    { id:'6', title: 'Sean Penn', bloodId: 'a6', description: '', location: ''},
+    { id:'7', title: 'Morgan Freeman', bloodId: 'a7', description: '', location: ''},
+    { id:'8', title: 'Clint EastWood', bloodId: 'a8', description: '', location: ''}
   ]
 });
 
 store.dispatch({
-  type: 'LOAD_AUTHORS_SUCCESS',
-  authors: [
-    { id: 'a1', firstName: 'A', lastName: '+' },
-    { id: 'a2', firstName: 'A', lastName: '-' },
-    { id: 'a3', firstName: 'B', lastName: '+' },
-    { id: 'a4', firstName: 'B', lastName: '-' },
-    { id: 'a5', firstName: 'AB', lastName: '+' },
-    { id: 'a6', firstName: 'AB', lastName: '-' },
-    { id: 'a7', firstName: 'O', lastName: '+' },
-    { id: 'a8', firstName: 'O', lastName: '-' }
+  type: 'LOAD_BLOODS_SUCCESS',
+  bloods: [
+    { id: 'a1', type: 'A', rh: '+' },
+    { id: 'a2', type: 'A', rh: '-' },
+    { id: 'a3', type: 'B', rh: '+' },
+    { id: 'a4', type: 'B', rh: '-' },
+    { id: 'a5', type: 'AB', rh: '+' },
+    { id: 'a6', type: 'AB', rh: '-' },
+    { id: 'a7', type: 'O', rh: '+' },
+    { id: 'a8', type: 'O', rh: '-' }
   ]
 });
 

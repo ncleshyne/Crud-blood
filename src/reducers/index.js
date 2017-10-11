@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
 import requests from './requestReducer';
-import authors from './authorReducer';
+import bloods from './bloodReducer';
 import staticLists from './staticListsReducer';
 
 
 const rootReducer = combineReducers({
   requests,
-  authors,
+  bloods,
   staticLists
 });
 

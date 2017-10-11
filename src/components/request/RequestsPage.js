@@ -28,7 +28,7 @@ function mapStateToProps(state, ownProps) {
   const list = state.requests.map(request => {
     return {
       ...request,
-      author: state.authors.filter(author => request.authorId === author.id)[0]
+      blood: state.bloods.filter(blood => request.bloodId === blood.id)[0]
     }
   });
   return {

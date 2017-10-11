@@ -4,7 +4,7 @@ import SelectInput from './../commons/SelectInput';
 import TextArea from './../commons/TextArea';
 
 
-const RequestForm = ({ request, allAuthors, onChange, onSave, loading, staticLists, errors }) => {
+const RequestForm = ({ request, allBloods, onChange, onSave, loading, staticLists, errors }) => {
   return (
     <form className="container">
       <h2>Request form</h2>
@@ -18,13 +18,13 @@ const RequestForm = ({ request, allAuthors, onChange, onSave, loading, staticLis
       />
 
       <SelectInput
-        name="authorId"
+        name="bloodId"
         label="Blood Type"
-        value={request.authorId}
+        value={request.bloodId}
         defaultOption="Select Bloodtype"
-        options={allAuthors}
+        options={allBloods}
         onChange={onChange}
-        error={errors.authorId}
+        error={errors.bloodId}
       />
 
       <TextArea
