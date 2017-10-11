@@ -4,7 +4,7 @@ import SelectInput from './../commons/SelectInput';
 import TextArea from './../commons/TextArea';
 
 
-const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists, errors }) => {
+const RequestForm = ({ request, allAuthors, onChange, onSave, loading, staticLists, errors }) => {
   return (
     <form className="container">
       <h2>Request form</h2>
@@ -12,7 +12,7 @@ const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists
       <TextInput
         name="title"
         label="Requester"
-        value={course.title}
+        value={request.title}
         onChange={onChange}
         error={errors.title}
       />
@@ -20,7 +20,7 @@ const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists
       <SelectInput
         name="authorId"
         label="Blood Type"
-        value={course.authorId}
+        value={request.authorId}
         defaultOption="Select Bloodtype"
         options={allAuthors}
         onChange={onChange}
@@ -31,7 +31,7 @@ const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists
         name="description"
         label="Description"
         rows={6}
-        value={course.description}
+        value={request.description}
         onChange={onChange}
         error={errors.description}
       />
@@ -40,7 +40,7 @@ const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists
         name="location"
         label="Location"
         rows={6}
-        value={course.location}
+        value={request.location}
         onChange={onChange}
         error={errors.location}
       />
@@ -50,4 +50,4 @@ const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists
   )
 }
 
-export default CourseForm;
+export default RequestForm;

@@ -3,28 +3,6 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class HomePage extends React.Component {
 
-  constructor() {
-    super();
-    const items = [
-      {id: '1', name: 'Item 1'},
-      {id: '2', name: 'Second item'},
-    ];
-    this.state = { items };
-    this.removeItem = this.removeItem.bind(this);
-    this.addItem = this.addItem.bind(this);
-  }
-
-  addItem() {
-    const items = [...this.state.items, { id: this.state.items.length + 1 + '', name: new Date() + '' }];
-    this.setState({items});
-  }
-  removeItem(item) {
-    const { id } = item;
-    const items = this.state.items.filter(item => item.id !== id);
-    this.setState({items});
-  }
-
-
   render() {
     return (
         <div className="homePage container">

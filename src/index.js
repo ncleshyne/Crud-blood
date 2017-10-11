@@ -12,8 +12,8 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 const store = configureStore();
 
 store.dispatch({
-  type: 'LOAD_COURSES_SUCCESS',
-  courses: [
+  type: 'LOAD_REQUESTS_SUCCESS',
+  requests: [
     { id:'1', title: 'Johnny Deep', authorId: 'a1', description: '', location: ''},
     { id:'2', title: 'Vin Diesel', authorId: 'a2', description: '', location: ''},
     { id:'3', title: 'Robert De Niro', authorId: 'a3', description: '', location: ''},
@@ -38,8 +38,6 @@ store.dispatch({
     { id: 'a8', firstName: 'O', lastName: '-' }
   ]
 });
-
-// obviously 'courseLevel' and 'tagList' would come from a service call in most real apps.
 
 
 ReactDOM.render(

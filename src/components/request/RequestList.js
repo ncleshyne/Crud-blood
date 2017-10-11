@@ -1,12 +1,12 @@
 import React from 'react';
-import CourseListRow from './CourseListRow';
+import RequestListRow from './RequestListRow';
 import {Link} from 'react-router';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
-class CourseList extends React.Component{
+class RequestList extends React.Component{
 
-  courseRow(course, index) {
-    return <div key={index}>{course.title}</div>;
+  requestRow(request, index) {
+    return <div key={index}>{request.title}</div>;
   }
 
   render() {
@@ -26,7 +26,7 @@ class CourseList extends React.Component{
             </tr>
           </thead>
           <ReactCSSTransitionGroup
-            transitionName="course-item"
+            transitionName="request-item"
             transitionLeave={true}
             transitionAppear={true}
             transitionAppearTimeout={700}
@@ -34,8 +34,8 @@ class CourseList extends React.Component{
             transitionLeaveTimeout={700}
             component="tbody"
           >
-            {this.props.courses.map(course =>
-                <CourseListRow key={course.id} course={course} removeCourse={this.props.removeCourse} />
+            {this.props.requests.map(request=>
+                <RequestListRow key={request.id} request={request} removeRequest={this.props.removeRequest} />
             )}
           </ReactCSSTransitionGroup>
         </table>
@@ -45,4 +45,4 @@ class CourseList extends React.Component{
 
 }
 
-export default CourseList;
+export default RequestList;

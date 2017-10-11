@@ -1,35 +1,55 @@
+# Blood Donation App
 
-Simple React raw form with basic validations for learning purpose. Intention is purely learn React and write HTML form manually with basic validation and one example of all possible elements.
+This app allows users to help meet the constant need for blood. 
 
-<h2>Things you'll find in this repo:</h2>
-<ul>
-  <li>React HTML forms with elements: Input, TextArea, CheckBox and RadioGroup.</li>
-  <li>React Routing</li>
-  <li>Redux (no async calls yet)</li>
-  <li>Basic Form validation</li>
-  <li>Create/Modify/Remove course.</li>
-  <li>Basic Animations</li>
-  <li>Animate Delete course.</li>
-  <li>(TODO) Modal confirmation with bootstrap</li>
-  <li>(TODO) Proper scalable way to write styles</li>
-  <li>(TODO) Unit test a few components</li>
-</ul>
+## Table of Contents
 
-## Run it
-* git clone
-* cd into
-* npm i
-* npm start
+- [Team](#la-luna-sangre)
+- [Plan](#plan)
+- [User Stories](#user-stories)
+- [Wireframe](#wireframe)
+- [Entity Relationship Diagram](#erd)
+- [App Name](#app-name)
+- [Tools and Methodologies](#tools--and-methodologies)
+- [Usage](#usage)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+### La Luna Sangre
+La Luna Sangre means is a spanish term means "The Blood Moon". God has often used "the heavens" for sending signs to mankind. In Genesis, God says there should be lights in heaven and says of those lights: "Let them be for signs." 
 
+| Coder | Portfolio |
+| --- | --- |
+| [ncleshyne](https://github.com/ncleshyne) | ncleshyne.github.io |
+| [silveredbullet](https://github.com/silveredbullet) | silveredbullet.github.io |
+| [grailwilly](https://github.com/grailwilly) | silveredbullet.github.io |
 
-## Inspired by:
-* My drive to learn React
-* Cory House: https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents
-* Facebook Docs: https://facebook.github.io/react/docs/thinking-in-react.html
-* Loren Stewart: http://lorenstewart.me/2016/10/31/react-js-forms-controlled-components/
+### Plan
 
+- Purpose
 
-Leonardo Correa
+The app aims to help make it easier to find voluteers to donate blood to strangers who desperately need blood.
+
+ - Problem
+
+Infographics
+https://i.pinimg.com/564x/a0/99/f8/a099f8f5bd13562bf4be5885f0cb2ee6.jpg
+http://3.bp.blogspot.com/-v_HrYLW8l0I/TaOL4fDI2PI/AAAAAAAABU0/Taj4fR3uwJ4/s1600/how_much_blood.jpg
+
+Know More:
+
+https://i.pinimg.com/564x/48/d5/9d/48d59dc478fad4c24dabcf5cb8a9cd59.jpg
+https://i.pinimg.com/564x/ff/2f/f6/ff2ff6591d6197eafd0ab8cc8e313d78.jpg
+
+ - Solution
+ 
+### User Stories 
+
+### Wireframe
+
+### ERD
+
+### App Name
+
+### Tools and Methodologies
+
+### Usage

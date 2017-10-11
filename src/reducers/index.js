@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
-import courses from './courseReducer';
+import requests from './requestReducer';
 import authors from './authorReducer';
 import staticLists from './staticListsReducer';
 
 
 const rootReducer = combineReducers({
-  courses,
+  requests,
   authors,
   staticLists
 });
