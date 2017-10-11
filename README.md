@@ -63,7 +63,6 @@ II. Communication
 - Meeting <br/>
 
 <img src="md/nicole.jpg" width="100%" height="auto">
-<img src="md/dan.jpg" width="100%" height="auto">
 <img src="md/component.jpg" width="100%" height="auto">
 
 
