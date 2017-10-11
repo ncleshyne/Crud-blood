@@ -47,21 +47,26 @@ With the Philippines' blood supply still falling short of the target, patients i
 ![erd](md/erd.png)
 
 ### Tools and Methodologies
-* Building the App
+I. Building the App
 
 - [Github]()
 - [Cloud9](https://c9.io/)
 - [Trello](https://trello.com/b/8fiwXjdl/blood-donation-app)
 - [Figma](https://www.figma.com/file/VX5FDJ15HLKBLVtvVeZJ6z1w/Blood-Donation-App)
 
-* Communication
+II. Communication
 
 - Slack <br/>
 ![slack](md/slack.png)
 - Facebook Messenger <br/>
 ![fb](md/fb.png)
 - Meeting <br/>
-![nicole](md/nicole.jpg){:height="auto" width="500px"} ![dan](md/dan.jpg){:height="auto" width="500px"} ![component](md/component.jpg){:height="auto" width="500px"}
+
+<img src="md/nicole.jpg" width="50" height="50">
+<img src="md/dan.jpg" width="50" height="50">
+<img src="md/component.jpg" width="50" height="50">
+
+
 
 
 
