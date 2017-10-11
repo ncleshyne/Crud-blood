@@ -61,7 +61,9 @@ With the Philippines' blood supply still falling short of the target, patients i
 - Facebook Messenger <br/>
 ![fb](md/fb.png)
 - Meeting <br/>
-![nicole](nicole.png){:height="auto" width="500px"} ![dan](dan.png){:height="auto" width="500px"} ![component](component.png){:height="auto" width="500px"}
+![nicole](nicole.png)<br/> 
+![dan](dan.png)<br/>
+![component](component.png)
 
 
 
