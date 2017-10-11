@@ -45,7 +45,7 @@ const RequestForm = ({ request, allBloods, onChange, onSave, loading, staticList
         error={errors.location}
       />
 
-      <input type="submit" className="btn btn-primary" value="Save" onClick={onSave}/>
+      <input type="submit" className="btn btn-primary" value="Post Request" onClick={onSave}/>
     </form>
   )
 }
