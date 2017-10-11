@@ -53,3 +53,7 @@ https://i.pinimg.com/564x/ff/2f/f6/ff2ff6591d6197eafd0ab8cc8e313d78.jpg
 ### Tools and Methodologies
 
 ### Usage
+
+### Future Improvements
+- Map
+- Searchbar
