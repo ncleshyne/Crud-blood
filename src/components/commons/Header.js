@@ -26,7 +26,8 @@ const Header = (props) => (
 
     <Link to='/' className='btn btn-primary'>Home</Link>
     <Link to='about' className='btn btn-primary'>About</Link>
-    <Link to='courses' className='btn btn-primary'>Courses</Link>
+    <Link to='courses' className='btn btn-primary'>Donate</Link>
+    <Link to='/course' className='btn btn-primary'>Request</Link>
   </header>
 );
 

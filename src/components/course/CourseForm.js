@@ -2,8 +2,6 @@ import React from 'react';
 import TextInput from './../commons/TextInput';
 import SelectInput from './../commons/SelectInput';
 import TextArea from './../commons/TextArea';
-import RadioGroup from './../commons/RadioGroup';
-import CheckBox from './../commons/CheckBox';
 
 
 const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists, errors }) => {
@@ -13,7 +11,7 @@ const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists
 
       <TextInput
         name="title"
-        label="Blood Type"
+        label="Requester"
         value={course.title}
         onChange={onChange}
         error={errors.title}
@@ -21,9 +19,9 @@ const CourseForm = ({ course, allAuthors, onChange, onSave, loading, staticLists
 
       <SelectInput
         name="authorId"
-        label="Requester"
+        label="Blood Type"
         value={course.authorId}
-        defaultOption="Select Author"
+        defaultOption="Select Bloodtype"
         options={allAuthors}
         onChange={onChange}
         error={errors.authorId}

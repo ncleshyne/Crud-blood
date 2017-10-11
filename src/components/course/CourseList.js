@@ -13,14 +13,13 @@ class CourseList extends React.Component{
     return (
       <div>
         <h2>Save Lives by Donating Blood</h2>
-        <Link to={'/course'}>New Request</Link>
 
         <hr />
         <table className="table">
           <thead>
             <tr>
-              <th>Blood Type</th>
               <th>Requester</th>
+              <th>Blood Type</th>
               <th>Description</th>
               <th>Address</th>
               <th></th>

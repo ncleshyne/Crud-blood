@@ -14,39 +14,33 @@ const store = configureStore();
 store.dispatch({
   type: 'LOAD_COURSES_SUCCESS',
   courses: [
-    { id:'1', title: 'Redux course cool', authorId: 'a1', level: 'adv', tags: [] },
-    { id:'2', title: 'React course', authorId: 'a2', tags: ['rct', 'fp'] },
-    { id:'3', title: 'Angular js', authorId: 'a1', description: 'This is the angular js course.', tags: [] }
+    { id:'1', title: 'Johnny Deep', authorId: 'a1', description: '', location: ''},
+    { id:'2', title: 'Vin Diesel', authorId: 'a2', description: '', location: ''},
+    { id:'3', title: 'Robert De Niro', authorId: 'a3', description: '', location: ''},
+    { id:'4', title: 'Tom Hanks', authorId: 'a4', description: '', location: ''},
+    { id:'5', title: 'Al Pacino', authorId: 'a5', description: '', location: ''},
+    { id:'6', title: 'Sean Penn', authorId: 'a6', description: '', location: ''},
+    { id:'7', title: 'Morgan Freeman', authorId: 'a7', description: '', location: ''},
+    { id:'8', title: 'Clint EastWood', authorId: 'a8', description: '', location: ''}
   ]
 });
 
 store.dispatch({
   type: 'LOAD_AUTHORS_SUCCESS',
   authors: [
-    { id: 'a1', firstName: 'Leonardo', lastName: 'Correa' },
-    { id: 'a2', firstName: 'Cara', lastName: 'Nada' }
+    { id: 'a1', firstName: 'A', lastName: '+' },
+    { id: 'a2', firstName: 'A', lastName: '-' },
+    { id: 'a3', firstName: 'B', lastName: '+' },
+    { id: 'a4', firstName: 'B', lastName: '-' },
+    { id: 'a5', firstName: 'AB', lastName: '+' },
+    { id: 'a6', firstName: 'AB', lastName: '-' },
+    { id: 'a7', firstName: 'O', lastName: '+' },
+    { id: 'a8', firstName: 'O', lastName: '-' }
   ]
 });
 
 // obviously 'courseLevel' and 'tagList' would come from a service call in most real apps.
-const courseLevel = [
-  { value: 'bgn', text: 'beginer' },
-  { value: 'intm', text: 'intermediate' },
-  { value: 'adv', text: 'advanced' }
-];
-const tagList = [
-  { value: 'fp', text: 'Functional Programming' },
-  { value: 'es6', text: 'ES 2017 (ES6)' },
-  { value: 'ng', text: 'Angular' },
-  { value: 'rct', text: 'React' }
-];
-store.dispatch({
-  type: 'LOAD_STATIC_LISTS',
-  staticLists: {
-    courseLevel,
-    tagList
-  }
-});
+
 
 ReactDOM.render(
   <Provider store={store}>
