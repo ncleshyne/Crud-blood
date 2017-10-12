@@ -72,4 +72,34 @@ II. Communication
 
 ### Usage
 
+Clone or Download Repo
+
+```
+https://github.com/grailwilly/bloodapp.git
+```
+<br/>
+
+install dependencies
+
+```
+$ npm install
+```
+
+<br/>
+
+run server
+
+```
+$ npm start
+```
+
+Visit http://localhost:3000/
+
+### Demo
+
+Deployed in heroku. Visit 
+
 ### Future Improvements
+
+- Add map for the list of requests
+- Registration for donors (and requesters)
