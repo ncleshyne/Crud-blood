@@ -8,9 +8,13 @@ const RequestListRow = ({request, removeRequest}) => {
       <td>{request.blood.type} {request.blood.rh}</td>
       <td>{request.description}</td>
       <td>{request.location}</td>
-      <td><input type="button" value="Remove" onClick={removeRequest.bind(null, request.id)} /></td>
+     
+      <td><Link to='/donate' className='btn btn-primary'>Donate</Link></td>
+
     </tr>
   )
 };
 
 export default RequestListRow;
+      
+// <td><input type="button" value="Remove" onClick={removeRequest.bind(null, request.id)} /></td>
