@@ -21,7 +21,8 @@ class RequestList extends React.Component{
               <th>Requester</th>
               <th>Blood Type</th>
               <th>Description</th>
-              <th>Address</th>
+              <th>Location</th>
+              <th></th>
               <th></th>
             </tr>
           </thead>
