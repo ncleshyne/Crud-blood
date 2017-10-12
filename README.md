@@ -1,5 +1,6 @@
-<img src="md/logo.jpg" width="100%" height="auto">
-
+<p align="center">
+	<img src="md/logo.jpg">
+</p>
 
 # Blood Donation App
 
