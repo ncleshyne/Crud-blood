@@ -12,8 +12,8 @@ This app allows users to help meet the constant need for blood.
 - [Problem](#problem)
 - [User Stories](#user-stories)
 - [Wireframe](#wireframe)
-- [Entity Relationship Diagram](#erd)
-- [Tools and Methodologies](#tools--and-methodologies)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Tools and Methodologies](#tools-and-methodologies)
 - [Usage](#usage)
 
 
@@ -45,8 +45,9 @@ With the Philippines' blood supply still falling short of the target, patients i
 
 ### Wireframe
 
+![wireframe](md/figma.png)
 
-### ERD
+### Entity Relationship Diagram
 ![erd](md/erd.png)
 
 ### Tools and Methodologies
