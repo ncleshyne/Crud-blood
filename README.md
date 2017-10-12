@@ -1,4 +1,4 @@
-<img src="md/logo.jpg" align="center">
+<img src="md/logo.jpg" width="100%" height="auto">
 
 
 # Blood Donation App
@@ -67,9 +67,6 @@ II. Communication
 
 <img src="md/nicole.jpg" width="100%" height="auto">
 <img src="md/component.jpg" width="100%" height="auto">
-
-
-
 
 
 ### Usage
