@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="md/logo2.jpg">
+	<img src="md/logo3.jpg">
 </p>
 
 # Blood Donation App
@@ -16,6 +16,8 @@ This app allows users to help meet the constant need for blood.
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Tools and Methodologies](#tools-and-methodologies)
 - [Usage](#usage)
+- [Demo](#demo)
+- [Future Improvements](#future-improvements)
 
 
 ### Team
