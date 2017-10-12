@@ -1,3 +1,6 @@
+<img src="md/logo.jpg" align="center">
+
+
 # Blood Donation App
 
 This app allows users to help meet the constant need for blood. 
