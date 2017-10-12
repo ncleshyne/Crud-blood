@@ -36,10 +36,8 @@ This app allows users to help meet the constant need for blood.
   ["Blood needed: With PH blood supply below target, patients seek help online.
   With the Philippines' blood supply still falling short of the target, patients in need of blood turn to online networks to look for kind-hearted strangers willing to donate"](https://www.rappler.com/newsbreak/in-depth/180446-blood-donation-online-networks-philippine-red-cross)
   <br/><br/>
-  
-  <p align="center">
-  ![Alt-text](http://3.bp.blogspot.com/-v_HrYLW8l0I/TaOL4fDI2PI/AAAAAAAABU0/Taj4fR3uwJ4/s1600/how_much_blood.jpg)
-  </p>
+
+![Alt-text](http://3.bp.blogspot.com/-v_HrYLW8l0I/TaOL4fDI2PI/AAAAAAAABU0/Taj4fR3uwJ4/s1600/how_much_blood.jpg)
     
 ### User Stories
 
