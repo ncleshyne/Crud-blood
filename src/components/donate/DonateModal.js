@@ -10,7 +10,7 @@ class DonateModal extends React.Component {
   render() {
 
     return (
-      <div>
+      <div className="container col-md-8 col-md-offset-3">
         <section>
           <h1>Blood Donations Eligibility Requirements:</h1>
           <h4>Blood donation helps save lives. You can donate blood if you...</h4>

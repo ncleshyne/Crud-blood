@@ -13,10 +13,10 @@ This app allows users to help meet the constant need for blood.
 - [Problem](#problem)
 - [User Stories](#user-stories)
 - [Wireframe](#wireframe)
+- [Flowchart](#flowchart)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Tools and Methodologies](#tools-and-methodologies)
 - [Usage](#usage)
-- [Demo](#demo)
 - [Future Improvements](#future-improvements)
 
 
@@ -39,7 +39,9 @@ This app allows users to help meet the constant need for blood.
   With the Philippines' blood supply still falling short of the target, patients in need of blood turn to online networks to look for kind-hearted strangers willing to donate"](https://www.rappler.com/newsbreak/in-depth/180446-blood-donation-online-networks-philippine-red-cross)
   <br/><br/>
 
-![Alt-text](http://3.bp.blogspot.com/-v_HrYLW8l0I/TaOL4fDI2PI/AAAAAAAABU0/Taj4fR3uwJ4/s1600/how_much_blood.jpg)
+<p align="center">
+	<img src="md/problem.jpg">
+</p>
     
 ### User Stories
 
@@ -49,6 +51,9 @@ This app allows users to help meet the constant need for blood.
 ### Wireframe
 
 ![wireframe](md/figma.png)
+
+### Flowchart
+![erd](md/flowchart.png)
 
 ### Entity Relationship Diagram
 ![erd](md/erd.png)
@@ -75,9 +80,6 @@ II. Communication
 
 ### Usage
 
-### Future Improvements
-- Map
-- Searchbar
 Clone or Download Repo
 
 ```
@@ -101,9 +103,6 @@ $ npm start
 
 Visit http://localhost:3000/
 
-### Demo
-
-Deployed in heroku. Visit 
 
 ### Future Improvements
 
