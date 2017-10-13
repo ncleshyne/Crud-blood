@@ -13,6 +13,7 @@ This app allows users to help meet the constant need for blood.
 - [Problem](#problem)
 - [User Stories](#user-stories)
 - [Wireframe](#wireframe)
+- [Flowchart](#flowchart)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Tools and Methodologies](#tools-and-methodologies)
 - [Usage](#usage)
@@ -50,6 +51,9 @@ This app allows users to help meet the constant need for blood.
 ### Wireframe
 
 ![wireframe](md/figma.png)
+
+### Flowchart
+![erd](md/flowchart.png)
 
 ### Entity Relationship Diagram
 ![erd](md/erd.png)
