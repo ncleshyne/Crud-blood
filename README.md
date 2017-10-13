@@ -16,7 +16,6 @@ This app allows users to help meet the constant need for blood.
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Tools and Methodologies](#tools-and-methodologies)
 - [Usage](#usage)
-- [Demo](#demo)
 - [Future Improvements](#future-improvements)
 
 
@@ -100,9 +99,6 @@ $ npm start
 
 Visit http://localhost:3000/
 
-### Demo
-
-Deployed in heroku. Visit 
 
 ### Future Improvements
 
