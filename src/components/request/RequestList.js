@@ -11,7 +11,7 @@ class RequestList extends React.Component{
 
   render() {
     return (
-      <div className="col-md-12 col-md-offset-2 container">
+      <div className="col-md-9 col-md-offset-3 container">
         <h2>Save Lives by Donating Blood</h2>
 
         <hr />

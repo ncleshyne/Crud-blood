@@ -6,8 +6,7 @@ import TextArea from './../commons/TextArea';
 
 const RequestForm = ({ request, allBloods, onChange, onSave, loading, staticLists, errors }) => {
   return (
-    <div className="col-md-6 col-md-offset-3 container">
-    <form className="container">
+    <form className="container col-md-6 col-md-offset-4">
       <h2>Request form</h2>
 
       <TextInput
@@ -48,7 +47,6 @@ const RequestForm = ({ request, allBloods, onChange, onSave, loading, staticList
 
       <input type="submit" className="btn btn-primary" value="Post Request" onClick={onSave}/>
     </form>
-    </div>
   )
 }
 

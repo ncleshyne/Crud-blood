@@ -11,7 +11,7 @@ class HomePage extends React.Component {
           <div>
             <h1>Why Should You Donate Blood?</h1>
             <AdaptiveHeight />
-            <p>By giving blood, you are making a small sacrifice that could be the difference between life and death for someone else. 
+            <p className="container-fluid">By giving blood, you are making a small sacrifice that could be the difference between life and death for someone else. 
             Find out if you are eligible to donate blood, as well as what blood types are compatible with yours, and learn more about the donation process below.</p>
           </div>
         </div>
